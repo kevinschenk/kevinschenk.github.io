@@ -16,7 +16,7 @@ a:hover {
 .pp {
 	margin-bottom: 50px;
 	margin-top: 100px;
-	border: 3px dashed #ff007e;
+	border: 3px dashed #fff;
 	padding: 25px;
 	width: 216px;
 	height: 100%;
@@ -27,11 +27,32 @@ a:hover {
 	text-decoration: none;
 }
 
+.crypt {
+	border: 3px dashed #fff;
+	padding: 25px;
+	width: 216px;
+	height: 100%;
+	border-radius: 5px;
+	background-color: #3adfd0;
+	text-align: center;
+	font-weight: 700;
+	text-decoration: none;
+}
+
 .pp:hover {
 	background: linear-gradient(to right, #ff1a8b, #feb3d8);
 }
 
+.crypt:hover {
+	background: linear-gradient(to right, #23a093, #01fde2);
+}
+
 .pp p {
+	color: white;
+	margin: 0;
+}
+
+.crypt p {
 	color: white;
 	margin: 0;
 }
@@ -40,7 +61,7 @@ a:hover {
 	color: black;
 }
 
-.crypt {
-	border: 3px dashed #ff007e;
-	padding: 25px;
+.crypt:hover p {
+	color: black;
 }
+
